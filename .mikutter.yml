@@ -1,0 +1,11 @@
+---
+slug: :twitter_activity
+depends:
+  mikutter: '4.0.0'
+  plugin:
+    - activity
+version: '1.0'
+author: toshi_a
+name: Twitter Activity
+description: >-
+  Twitter上で発生するフォローやリスト追加といったイベントをActivityに通知します
