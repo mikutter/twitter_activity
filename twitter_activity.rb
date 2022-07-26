@@ -43,7 +43,7 @@ Plugin.create(:twitter_activity) do
   end
 
   on_follow do |by, to|
-    break if by.nil? || to.nil?
+    next if by.nil? || to.nil?
 
     by_user_to_user = {
       followee: by[:idname],
